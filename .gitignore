@@ -1,0 +1,16 @@
+# Publish only the reviewed application, documentation and deployment files.
+*
+!.gitignore
+!README.md
+!server.mjs
+!dist/
+dist/*
+!dist/index.html
+!dist/app.js
+!dist/domain.mjs
+!dist/styles.css
+!.github/
+.github/*
+!.github/workflows/
+.github/workflows/*
+!.github/workflows/pages.yml
